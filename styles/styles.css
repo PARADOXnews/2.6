@@ -1,0 +1,142 @@
+* {
+   font-family: lato;
+   box-sizing: border-box;
+}
+
+.main {
+   max-width: 1604px;
+   width: 100%;
+   background-color: #E4EBFF;
+   height: 2377px;
+   padding: 96px;
+   padding-bottom:129px;
+   margin: auto;
+}
+
+.tetri {
+   max-width: 1280px;
+   height:2152px;
+   width: 100%;
+   margin: auto;
+   background-color: #fff;
+   padding: 96px 0;
+}
+
+.title {
+   text-align: center;
+   margin-bottom: 96px;
+}
+
+.title>span {
+   color: #6941C6;
+   text-align: center;
+   font-family: Inter;
+   font-size: 16px;
+   font-weight: 600;
+   margin-bottom: 12px;
+}
+
+.title>h1 {
+   color: #181D27;
+   text-align: center;
+   font-family: Inknut Antiqua;
+   font-size: 40px;
+   font-weight: 600;
+   margin-bottom: 32px;
+}
+
+.title>p {
+   color: #535862;
+   text-align: center;
+   font-family: Inria Sans;
+   font-size: 20px;
+   font-weight: 400;
+}
+
+ul {
+   list-style-type: none;
+}
+
+li {
+   color: #535862;
+   font-family: Inder;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px;
+   /* 155.556% */
+   margin-bottom: 20px;
+}
+
+li img {
+   vertical-align: middle
+}
+
+
+.share {
+   margin-bottom: 96px;
+}
+
+.firstext {
+   width: 553px;
+   margin-right: 93px;
+   display: inline-block;
+   vertical-align: middle;
+   margin-left: 32px
+}
+
+.firstext>h1 {
+   color: #181D27;
+   font-family: Inter;
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.firstext>p {
+   color: #535862;
+   font-family: Inter;
+   font-size: 18px;
+   font-weight: 400;
+   margin-bottom: 32px;
+
+}
+
+
+.firstimg {
+   display: inline-block;
+   vertical-align: middle;
+   overflow: none;
+   width: 595px;
+}
+
+.deliver {margin-bottom:96px;}
+
+.secondimg , .secondtext {
+   display:inline-block;
+   vertical-align:middle;
+}
+
+.secondtext {
+   width:592px;
+   margin-left:96px;
+   padding-right:32px;
+}
+
+.secondtext > h1 {
+   color: #181D27;
+font-family: Inter;
+font-size: var(--Font-size-display-sm, 30px);
+font-style: normal;
+font-weight: 600;
+line-height: var(--Line-height-display-sm, 38px); /* 126.667% */
+}
+
+.secondtext > p{
+   color: #535862;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: var(--Line-height-text-lg, 28px); /* 155.556% */
+}
+
